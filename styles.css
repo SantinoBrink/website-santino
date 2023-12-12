@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'poppins', sans-serif;
+    box-sizing: border-box;
+}
+body{
+    background: rgb(251, 243, 233)
+}
+.timeline{
+    position: relative;
+    max-width: 1200px;
+    margin: 100px auto;
+}
+.container{
+    padding: 10px 50px;
+    position: relative;
+    width: 50%;
+    background:rgb(1, 50, 32)
+}
+.text-box{
+    padding: 20px 30px;
+    background: rgb(50, 205, 50);
+    position: relative;
+    border-radius: 6px;
+    font-size: 15px;
+    font-family:georgia; color:indigo;
+}
+.left-container{
+    left: 0;
+}
+.right-container{
+    left: 50%;
+}
+.left-container img{
+    position: absolute;
+    max-width: 400px;
+    max-height: 225px;
+    right: -425px;
+    top: 5px;
+    z-index: -10;
+}
+.right-container img{
+    position: absolute;
+    max-width: 400px;
+    max-height: 225px;
+    left: -475px;
+    top: 5px;
+    z-index: -10;
+}
